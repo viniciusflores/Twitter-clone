@@ -1,0 +1,44 @@
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+}
+
+#app {
+  display: flex;
+  /*flex-direction: row;*/
+  /* row horizontal - colunm vertical*/
+  /*align-items: flex-start; /* align inverso eixo flex*/
+  /*justify-content: flex-start; /* align eixo flex*/
+  /*flex-wrap: wrap-reverse;*/
+  /*quebra linha*/
+  /*align-content: center;*/
+  /*alinha o conteudo quando maior que uma linha*/
+}
+
+.box {
+  /*  width: 60px;*/
+  width: 550px;
+  height: 60px;
+  background: #f00;
+  margin: 5px;
+  /*flex-grow: 1;*/
+  /* aumenta x (expande) para caber no box*/
+  /*flex-shrink: 0;*/
+  /* diminui x (contrai) para caber no box*/
+  /* flex: 1 0 -> grow shrink*/
+
+}
+
+.red {
+  /*order: 1*/ /*ordena os registros*/
+}
+
+.green {
+  background: #0f0;
+}
+
+.blue {
+  background: #00f
+}
