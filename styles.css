@@ -1,0 +1,25 @@
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+}
+
+#app {
+  display: flex;
+  flex-direction: row; /* row horizontal - colunm vertical*/
+  /*align-items: flex-start; /* align inverso eixo flex*/
+  /*justify-content: flex-start; /* align eixo flex*/
+}
+
+.box {
+  /*  width: 60px;*/
+  width: 100px;
+  height: 60px;
+  background: #f00;
+  margin: 5px;
+  /*flex-grow: 1;*/ /* aumenta x (expande) para caber no box*/
+  /*flex-shrink: 0;*/ /* diminui x (contrai) para caber no box*/
+  /* flex: 1 0 -> grow shrink*/
+
+}
